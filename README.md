@@ -10,9 +10,7 @@ Pretty print structs
 ```go
 package main
 
-import (
-	"github.com/elsgaard/mooseutils"
-)
+import "github.com/elsgaard/mooseutils"
 
 type User struct {
 	Name string
@@ -24,5 +22,6 @@ func main() {
 	mooseutils.PrettyPrint(user)
 
 }
+
 ```
 
